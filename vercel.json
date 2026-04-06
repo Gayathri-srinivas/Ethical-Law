@@ -5,6 +5,10 @@
     }
   },
   "routes": [
+    { "src": "/JS/(.*)", "dest": "/JS/$1" },
+    { "src": "/Books/(.*)", "dest": "/Books/$1" },
+    { "src": "/EngBooks/(.*)", "dest": "/EngBooks/$1" },
+    { "src": "/styles.css", "dest": "/styles.css" },
     { "src": "/api/(.*)", "dest": "/api/$1" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
